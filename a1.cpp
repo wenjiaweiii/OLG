@@ -8,6 +8,6 @@ signed main()
 	int GCD=__gcd(n,m);
 	int LCM=n/__gcd(n,m)*m;
 	cout << "最大公因数为 ：" << GCD << endl;
-    cout << "最小公倍数为 ：" << LCM << endl;
+	cout << "最小公倍数为 ：" << LCM << endl;
 	return 0;
 }
